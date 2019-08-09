@@ -1,0 +1,57 @@
+body {
+	background: white; 
+
+}
+
+header {
+	display: flex;
+	padding-top: 50px;
+}
+
+
+
+#header-img {
+	width: 20px;
+	height: auto;
+}
+
+
+#header-left {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	padding-left: 100px;
+}
+
+#brand-name {
+	font-family: 'Dancing Script', cursive;
+	flex:95%;
+
+}
+
+#apple-logo {
+	flex:5%;
+}
+
+#header-right {
+	flex: 1;
+	display: flex;
+	padding-right: 100px;
+}
+
+
+#nav-bar {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+
+}
+.nav-link {
+	flex: 1;
+	background-color: yellow;
+	text-align: right;
+	margin: 10px;
+	font-size: 20px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
