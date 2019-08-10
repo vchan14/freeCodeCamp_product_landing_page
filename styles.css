@@ -5,6 +5,10 @@ body {
 
 }
 
+.feature-main {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 header {
 	display: flex;
 	padding-top: 50px;
@@ -12,6 +16,15 @@ header {
 	padding-right: 10%;
 
 
+}
+
+#title {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+.products-name {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -102,6 +115,12 @@ hr {
 }
 
 
+#question {
+	font-family: 'Ubuntu', cursive;
+	font-size: 20px;
+	margin-bottom: -20px;
+}
+
 #newsletter {
 	display: flex;
 	flex-direction: column;
@@ -113,30 +132,37 @@ hr {
 	flex:1;
 	display: flex;
 	flex-direction: column;
-	background-color: brown;
-	align-items: center;
+/*	background-color: brown;
+*/	align-items: center;
+	padding: 20px;
+	padding-bottom: 5px;
 
 }
 
 #newsletter-email label {
 	flex: 1;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 
 }
 
 #newsletter-email input {
 	flex: 1;
-	background-color: black;
-	margin-bottom: 5px;
-	
+/*	background-color: black;
+*//*	margin-bottom: 5px;
+*/	
 
 }
 
 #submit {
 	flex:1;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 
 }
+
+
+
+
+
 
 
 #features {
@@ -144,35 +170,60 @@ hr {
 	padding-top: 20px;
 	padding-left: 10%;
 	padding-right: 10%;
+/*	background-color: green;
+*/	justify-content: space-between;
+/*	align-items: center;*/
+
 }
 
 .feature-components {
-	flex:1;
+/*	background-color: brown;
+*/	padding: 20px;
+	box-sizing: border-box;
+/*	margin-right: 20px;
+*/
+	flex-basis: 30%;
+
 }
 
 
 #pricing {
 	display: flex;
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-left: 10%;
 	padding-right: 10%;
+	justify-content: space-between;
 
 }
 
 
 .products {
-	flex:1;
+	flex-basis: 25%;
+/*	background-color: brown;
+*/	padding: 20px;
+
+}
+ul {
+	padding-left: 30%;
+}
+li {
+	text-align: left;
 }
 
+
+.products p {
+	text-align: center;
+}
 
 footer {
 	padding: 0px;
 	margin: 0px;
 	display: flex;
 	flex-direction: column;
-	padding-top: 50px;
+	padding-top: 0px;
 	padding-left: 10%;
 	padding-right: 10%;
+	justify-content: space-between;
 	
 }
 
@@ -184,16 +235,16 @@ footer p {
 #copyright {
 	padding-top: -20px;
 	margin-top: -7px;
-	background-color: blue;
-
+/*	background-color: blue;
+*/
 
 }
 
 #privacy-terms-contact {
 	display: flex;
 	justify-content: right; 
-	background: red;
-	justify-content: flex-end;
+/*	background: red;
+*/	justify-content: flex-end;
 
 
 }
@@ -210,35 +261,29 @@ footer p {
 	width: auto;
 
 
+}
 
-
+#newsletter-copyright-line {
+	margin-bottom: -20px;
 }
 
 #privacy {
-	background-color: brown;
-/*	box-sizing: border-box;
+/*	background-color: brown;
+*//*	box-sizing: border-box;
 	max-width: 100px;*/
 	
 }
 
 #terms {
-	background-color: green;
-/*	box-sizing: border-box;
+/*	background-color: green;
+*//*	box-sizing: border-box;
 	width: 5%;*/
 }
 
 #contact {
-	background-color: yellow;
-/*	box-sizing: border-box;
+/*	background-color: yellow;
+*//*	box-sizing: border-box;
 	width: 5%;
 */}
 
 
-li {
-	text-align: left;
-}
-
-.products p {
-	text-align: left;
-	padding-left: 40px;
-}
