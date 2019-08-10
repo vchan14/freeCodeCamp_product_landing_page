@@ -2,11 +2,16 @@ body {
 	background: rgb(224, 224, 224); 
 	text-align: center;
 
+
 }
 
 header {
 	display: flex;
 	padding-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+
 }
 
 
@@ -22,7 +27,6 @@ header {
 #header-left {
 	flex: 1;
 	display: flex;
-	padding-left: 10%;
 /*	background-color: blue;
 */	flex-direction: row;
 	flex-basis: 
@@ -51,7 +55,6 @@ header {
 #header-right {
 	flex: 1;
 	display: flex;
-	padding-right: 10%;
 /*	background: green;
 */}
 
@@ -93,5 +96,149 @@ hr {
 
 }
 
+.image {
+	width: 30px;
+	max-height: auto;
+}
 
+
+#newsletter {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#newsletter-email {
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	background-color: brown;
+	align-items: center;
+
+}
+
+#newsletter-email label {
+	flex: 1;
+	margin-bottom: 5px;
+
+}
+
+#newsletter-email input {
+	flex: 1;
+	background-color: black;
+	margin-bottom: 5px;
+	
+
+}
+
+#submit {
+	flex:1;
+	margin-bottom: 30px;
+
+}
+
+
+#features {
+	display: flex;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.feature-components {
+	flex:1;
+}
+
+
+#pricing {
+	display: flex;
+	padding-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+
+.products {
+	flex:1;
+}
+
+
+footer {
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+
+footer p {
+	text-align: right;
+}
+
+#copyright {
+	padding-top: -20px;
+	margin-top: -7px;
+	background-color: blue;
+
+
+}
+
+#privacy-terms-contact {
+	display: flex;
+	justify-content: right; 
+	background: red;
+	justify-content: flex-end;
+
+
+}
+
+.footer-elements {
+/*	box-sizing: border-box;
+*/	max-width: 80px;
+	max-height: 40px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-bottom: -20px;
+	flex-shrink: 0;
+	height: auto;
+	width: auto;
+
+
+
+
+}
+
+#privacy {
+	background-color: brown;
+/*	box-sizing: border-box;
+	max-width: 100px;*/
+	
+}
+
+#terms {
+	background-color: green;
+/*	box-sizing: border-box;
+	width: 5%;*/
+}
+
+#contact {
+	background-color: yellow;
+/*	box-sizing: border-box;
+	width: 5%;
+*/}
+
+
+li {
+	text-align: left;
+}
+
+.products p {
+	text-align: left;
+	padding-left: 40px;
 }
